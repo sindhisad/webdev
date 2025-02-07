@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header and Navigation -->
+    <!-- Header -->
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="themes.html">Themes</a></li>
-                <li><a href="projects.html">Past Projects</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
             </ul>
         </nav>
     </header>
@@ -22,19 +23,46 @@
     <!-- Pricing Section -->
     <main>
         <section class="pricing">
-            <h1>Subscription Plans</h1>
-            <p>Select your country to view pricing details.</p>
-            <select id="country-select">
-                <option value="IN">India - ?7999/month</option>
-                <option value="US">USA - $120/month</option>
-                <option value="UK">UK - �100/month</option>
-            </select>
-
-            <div class="pricing-details">
-                <p>Web development and AI courses for affordable prices, taught by industry experts.</p>
+            <h1>Pricing Plans</h1>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Basic Plan</h3>
+                    <p>₹7999/month</p>
+                    <ul>
+                        <li>Basic Web Development</li>
+                        <li>1 Page Website</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                    <a href="https://wa.me/919712615370" class="cta-btn">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Pro Plan</h3>
+                    <p>₹14999/month</p>
+                    <ul>
+                        <li>Custom Website Development</li>
+                        <li>AI Integration</li>
+                        <li>Unlimited Pages</li>
+                    </ul>
+                    <a href="https://wa.me/919712615370" class="cta-btn">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise Plan</h3>
+                    <p>₹24999/month</p>
+                    <ul>
+                        <li>Enterprise-Level Solutions</li>
+                        <li>Fully Customized Features</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="https://wa.me/919712615370" class="cta-btn">Get Started</a>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919712615370" class="whatsapp-button" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+    </a>
 
     <script src="script.js"></script>
 </body>
